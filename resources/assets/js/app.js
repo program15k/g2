@@ -8,6 +8,8 @@
 require('./bootstrap');
 
 window.Vue = require('vue');
+import VueResource from 'vue-resource'
+Vue.use(VueResource);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -16,6 +18,8 @@ window.Vue = require('vue');
  */
 
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
+Vue.component('example-component1', require('./components/formHelper.vue'));
+Vue.component('example-component2', require('./components/showBlogs.vue'));
 //import Example from './components/ExampleComponent.vue';
 
 const app = new Vue({

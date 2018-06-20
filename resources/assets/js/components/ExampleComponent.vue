@@ -6,7 +6,7 @@
                     <div class="card-header">Example Component</div>
 
                     <div class="card-body">
-                        DUPA KOMPONENT HE HE  hgthgth ewvewv
+                        Kulturalne
                     </div>
                 </div>
             </div>
@@ -16,8 +16,6 @@
 
 <script>
     export default {
-        mounted() {
-            console.log('Component mounted.')
-        }
+
     }
 </script>

@@ -13,8 +13,7 @@ class StartController extends Controller
         $m=date('m');
         $y=date('Y');
         $time=date('G-i-s');
-       $data=array('date'=> array(array('year'=>$y,'month'=>$m,'day'=>$d,'time'=>$time)));
-        header('Access-Control-Allow-Origin: tred');
+       $data=array(array('year'=>$y,'month'=>$m,'day'=>$d,'time'=>$time));
         header('Content-Type: application/json');
         echo json_encode($data);
     }

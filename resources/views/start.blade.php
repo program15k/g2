@@ -14,7 +14,23 @@
        
     </head>
     <body>
+	<div id="app">
 Test
+  <example-component></example-component>
+  <example-component1>
+         <div slot="form-header">
+           <h3>This is the title of the form</h3>
+           <p>Information about the form</p>
+       </div>
+       <div slot="form-fields">
+           <input type="text" placeholder="Name" required />
+           <input type="password" placeholder="Password" required />
+       </div>
+       <div slot="form-controls">
+           <button v-on:click="handleSumbit">Sumbit</button>
+       </div>
+  </example-component1>
+  <example-component2></example-component2>
 	</div>
 		<script src="{{ asset('js/app.js') }}"></script>
     </body>
