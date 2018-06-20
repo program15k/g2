@@ -8,8 +8,6 @@
 require('./bootstrap');
 
 window.Vue = require('vue');
-require('vue-resource');
-
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -17,10 +15,9 @@ require('vue-resource');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-import App from './App.vue'
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
+//import Example from './components/ExampleComponent.vue';
 
-new Vue({
-  el: '#app',
-  render: h => h(App)
+const app = new Vue({
+    el: '#app'
 });
