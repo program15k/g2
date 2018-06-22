@@ -17,3 +17,4 @@ Route::get('/', function () {
 
 
 Route::get('/start', 'StartController@start');
+Route::get('/oddo', 'StartController@oddo');
