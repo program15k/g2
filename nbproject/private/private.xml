@@ -6,11 +6,12 @@
             <file>file:/C:/xampp/htdocs/g2/app/Http/Controllers/StartController.php</file>
             <file>file:/C:/xampp/htdocs/g2/app/Providers/AppServiceProvider.php</file>
             <file>file:/C:/xampp/htdocs/g2/routes/web.php</file>
+            <file>file:/C:/xampp/htdocs/g2/app/Http/Controllers/Controller.php</file>
+            <file>file:/C:/xampp/htdocs/g2/app/Http/Controllers/HomeController.php</file>
             <file>file:/C:/xampp/htdocs/g2/resources/assets/js/app.js</file>
-            <file>file:/C:/xampp/htdocs/g2/resources/assets/js/components/showBlogs.vue</file>
             <file>file:/C:/xampp/htdocs/g2/config/app.php</file>
-            <file>file:/C:/xampp/htdocs/g2/resources/assets/js/components/formHelper.vue</file>
             <file>file:/C:/xampp/htdocs/g2/app/User_set.php</file>
+            <file>file:/C:/xampp/htdocs/g2/resources/assets/js/components/addBlogs.vue</file>
             <file>file:/C:/xampp/htdocs/g2/.env</file>
         </group>
     </open-files>

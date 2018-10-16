@@ -21,7 +21,7 @@
         },
         created(){
             this.$http.get('http://192.168.0.102/g2/public/start').then(function(data){
-                this.blogs = data.body;
+                this.blogs = [data.body];
             })
         }
     }

@@ -5,7 +5,6 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="csrf-token" content="{{ csrf_token() }}">
-
         <title>jo jo</title>
 
         <!-- Fonts -->
@@ -16,6 +15,8 @@
     <body>
 	<div id="app">
 Test
+
+test
   <example-component></example-component>
   <example-component1>
          <div slot="form-header">
@@ -31,6 +32,7 @@ Test
        </div>
   </example-component1>
   <example-component2></example-component2>
+   <example-component3></example-component3>
 	</div>
 		<script src="{{ asset('js/app.js') }}"></script>
     </body>

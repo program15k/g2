@@ -16,5 +16,6 @@ Route::get('/', function () {
 });
 
 
-Route::get('/start', 'StartController@start');
+Route::post('/start', 'StartController@start');
 Route::post('/oddo', 'StartController@oddo');
+Route::post('/addreservation', 'StartController@addreservation');

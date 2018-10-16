@@ -20,8 +20,16 @@ Vue.use(VueResource);
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
 Vue.component('example-component1', require('./components/formHelper.vue'));
 Vue.component('example-component2', require('./components/showBlogs.vue'));
+Vue.component('example-component3', require('./components/addBlogs.vue'));
+
 //import Example from './components/ExampleComponent.vue';
 
 const app = new Vue({
     el: '#app'
 });
+
+function daysInMonth (month, year) {
+    return new Date(year, month, 0).getDate();
+}
+
+daysInMonth(7,2009);
